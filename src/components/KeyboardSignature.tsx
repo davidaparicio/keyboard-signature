@@ -773,19 +773,6 @@ export const KeyboardSignature = () => {
         </a>
       </div>
 
-      <a
-        className="absolute cursor-pointer left-1/2 bottom-8 -translate-x-1/2 opacity-50 hover:opacity-100 text-sm flex flex-col items-center transition-all duration-150 ease-out text-center"
-        href="https://axiom.trade/meme/3URGpspzJUT7d3LN1kfbjm6koy5fNQTgQqDY8Zh1rZ8H"
-        rel="noreferrer noopener"
-        target="_blank"
-      >
-        <p className="font-bold text-white text-base">$SIGN</p>
-        <p className=" text-neutral-300 max-sm:break-all">
-          <span className="text-neutral-400 font-bold">CA:</span>{" "}
-          GjbLHUmyUo6JFczvaTbsj9p1LjsXmvR8Vk9gRPNLBAGS
-        </p>
-      </a>
-
       <AnimatePresence>
         {optionsOpen ? (
           <motion.div
